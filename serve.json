@@ -1,0 +1,30 @@
+{
+  "headers": [
+    {
+      "source": "/check",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        }
+      ]
+    },
+    {
+      "source": "/navi.exe",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=navi.exe"
+        }
+      ]
+    }
+  ]
+}
